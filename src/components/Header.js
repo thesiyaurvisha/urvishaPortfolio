@@ -83,14 +83,14 @@ function Header() {
                         >
                             <div className="alert-header">
                                 Notifications
-								    </div>
+                            </div>
                             <div className="all-alerts">
                                 <MenuItem onClick={notificationHandleClose}>
                                     <i>
                                         <img src={process.env.PUBLIC_URL + '/assets/images/inner-notification.svg'} alt="" />
                                     </i>
                                     <span>Suzzeth Bungaos tagged you and
-											18 others in a post</span>
+                                        18 others in a post</span>
                                     <em>Oct 3, 2017 9:00 PM</em>
                                 </MenuItem>
                                 <MenuItem onClick={notificationHandleClose}>
@@ -98,7 +98,7 @@ function Header() {
                                         <img src={process.env.PUBLIC_URL + '/assets/images/inner-notification.svg'} alt="" />
                                     </i>
                                     <span>Suzzeth Bungaos tagged you and
-											18 others in a post</span>
+                                        18 others in a post</span>
                                     <em>Oct 3, 2017 9:00 PM</em>
                                 </MenuItem>
                                 <MenuItem onClick={notificationHandleClose}>
@@ -106,7 +106,7 @@ function Header() {
                                         <img src={process.env.PUBLIC_URL + '/assets/images/inner-notification.svg'} alt="" />
                                     </i>
                                     <span>Suzzeth Bungaos tagged you and
-											18 others in a post</span>
+                                        18 others in a post</span>
                                     <em>Oct 3, 2017 9:00 PM</em>
                                 </MenuItem>
                                 <MenuItem onClick={notificationHandleClose}>
@@ -114,7 +114,7 @@ function Header() {
                                         <img src={process.env.PUBLIC_URL + '/assets/images/inner-notification.svg'} alt="" />
                                     </i>
                                     <span>Suzzeth Bungaos tagged you and
-											18 others in a post</span>
+                                        18 others in a post</span>
                                     <em>Oct 3, 2017 9:00 PM</em>
                                 </MenuItem>
                                 <MenuItem onClick={notificationHandleClose}>
@@ -122,7 +122,7 @@ function Header() {
                                         <img src={process.env.PUBLIC_URL + '/assets/images/inner-notification.svg'} alt="" />
                                     </i>
                                     <span>Suzzeth Bungaos tagged you and
-											18 others in a post</span>
+                                        18 others in a post</span>
                                     <em>Oct 3, 2017 9:00 PM</em>
                                 </MenuItem>
                             </div>
@@ -149,14 +149,14 @@ function Header() {
                         >
                             <div className="alert-header">
                                 chats
-								    </div>
+                            </div>
                             <div className="all-alerts">
                                 <MenuItem onClick={messageHandleClose}>
                                     <i>
                                         <img src={process.env.PUBLIC_URL + '/assets/images/inner-notification.svg'} alt="" />
                                     </i>
                                     <span>Suzzeth Bungaos tagged you and
-											18 others in a post</span>
+                                        18 others in a post</span>
                                     <em>Oct 3, 2017 9:00 PM</em>
                                 </MenuItem>
                                 <MenuItem onClick={messageHandleClose}>
@@ -164,7 +164,7 @@ function Header() {
                                         <img src={process.env.PUBLIC_URL + '/assets/images/inner-notification.svg'} alt="" />
                                     </i>
                                     <span>Suzzeth Bungaos tagged you and
-											18 others in a post</span>
+                                        18 others in a post</span>
                                     <em>Oct 3, 2017 9:00 PM</em>
                                 </MenuItem>
                                 <MenuItem onClick={messageHandleClose}>
@@ -172,7 +172,7 @@ function Header() {
                                         <img src={process.env.PUBLIC_URL + '/assets/images/inner-notification.svg'} alt="" />
                                     </i>
                                     <span>Suzzeth Bungaos tagged you and
-											18 others in a post</span>
+                                        18 others in a post</span>
                                     <em>Oct 3, 2017 9:00 PM</em>
                                 </MenuItem>
                                 <MenuItem onClick={messageHandleClose}>
@@ -180,7 +180,7 @@ function Header() {
                                         <img src={process.env.PUBLIC_URL + '/assets/images/inner-notification.svg'} alt="" />
                                     </i>
                                     <span>Suzzeth Bungaos tagged you and
-											18 others in a post</span>
+                                        18 others in a post</span>
                                     <em>Oct 3, 2017 9:00 PM</em>
                                 </MenuItem>
                                 <MenuItem onClick={messageHandleClose}>
@@ -188,7 +188,7 @@ function Header() {
                                         <img src={process.env.PUBLIC_URL + '/assets/images/inner-notification.svg'} alt="" />
                                     </i>
                                     <span>Suzzeth Bungaos tagged you and
-											18 others in a post</span>
+                                        18 others in a post</span>
                                     <em>Oct 3, 2017 9:00 PM</em>
                                 </MenuItem>
                             </div>
@@ -204,7 +204,7 @@ function Header() {
 
                         <Button aria-controls="userMenu" aria-haspopup="true" className="btn btn-icon" onClick={userHandleClick}>
                             <img src={process.env.PUBLIC_URL + '/assets/images/avtar.png'} alt="" />
-                            <span>Lia Watson</span>
+                            <span>Urvi Thesiya</span>
                         </Button>
                         <Menu
                             anchorEl={userAnchor}

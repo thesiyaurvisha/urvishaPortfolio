@@ -1,5 +1,6 @@
 {
   "name": "mp-theme-18",
+  "homepage": "https://thesiyaurvisha.github.io/urvishaPortfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,6 +21,8 @@
     "web-vitals": "^1.1.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "start": "react-scripts --openssl-legacy-provider start",
